@@ -1,0 +1,40 @@
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.categories {
+    width: 250px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    overflow: auto;
+
+}
+
+.categories:first-child {
+    color: #222222;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.categories > * {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.categories a {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-decoration: none;
+}
