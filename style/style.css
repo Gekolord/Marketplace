@@ -52,13 +52,99 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 33px;
+    
+    
 }
 
 .welcome-cards > div {
     height: 289px;
 }
 
-.welcome-cards__welcome-to-navigator {
+.welcome-cards__card1 {
     grid-column-start: 1;
     grid-column-end: -1;
+    background: #1946BAD9;
+
+}
+
+.welcome-card-padding-and-positioning {
+    padding: 29px;
+    position: relative;
+}
+
+.header-white {
+    max-width: 554px;
+    max-height: 75px;
+    top: 188px;
+    left: 392px;
+    gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.card-description-white {
+    max-width: 417px;
+    max-height: 34px;
+    top: 278px;
+    left: 392px;
+    gap: 0px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    margin-top: 29px;
+}
+
+.welcome-cards__characteristics {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 29px;
+}
+
+.characteristic-description-white {
+    max-width: 150px;
+    max-height: 22px;
+    top: 401.97px;
+    left: 392px;
+    gap: 0px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 9px;
+    text-align: left;
+
+}
+
+.welcome-cards__characteristics > div {
+    display: inline-block;
+}
+
+.welcome-cards__card1-circles {
+
+    height: 95%;
+}
+
+.position-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.welcome-cards__card2 {
+    background: #38C463;
+
+}
+
+.welcome-cards__open-button {
+    border: 1px solid #FFFFFF;
+    width: 105px;
+    height: 40px;
+    border-radius: 2px 0px 0px 0px;
+    color: #FFFFFF;
+    background: none;
+    position: absolute;
+    bottom: 29px;
+
 }
