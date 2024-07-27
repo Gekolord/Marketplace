@@ -6,6 +6,11 @@ body {
     background-color: #FAFAFA;
 }
 
+body > * {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
 .categories {
     width: 250px;
     background-color: #FFFFFF;
@@ -205,4 +210,54 @@ body {
     text-align: left;
     color: #C4C4C4;
     margin: 0;
+}
+
+.physics {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.showcase-clock__category-button {
+    width: 50px;
+    height: 26px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.5px;
+
+
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: none;
+    padding: 0;
+}
+
+.showcase-block__category-buttons {
+    display: flex;
+    gap: 40px;
+}
+
+.showcase-block {
+    box-sizing: border-box;
+    padding: 50px 44px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    width: 1320px;
+    height: 479px;
+    border-radius: 8px;
+}
+
+.showcase-clock__category-button_focused {
+    width: 89px;
+    height: 32px;
+    border-radius: 5px;
+    background: #1946BAD9;
+    border: none;
+    color: #FFFFFF;
+
+
 }
