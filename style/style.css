@@ -39,6 +39,12 @@ body {
     line-height: 19px;
     text-align: left;
     text-decoration: none;
+
+}
+
+.categories a:hover {
+    color: #F21F5B;
+    text-decoration: underline;
 }
 
 .categories > div > img {
@@ -158,3 +164,45 @@ body {
     margin: 90px;
 }
 
+.welcome-cards__open-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.examples {
+    display: flex;
+    margin: 130px 90px;
+    gap: 58px;
+
+}
+
+.example {
+    background-color:#FFFFFF;
+    width: 287px;
+    height: 195px;
+    top: 900px;
+    left: 90px;
+    gap: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    flex: 0 0 auto;
+    padding: 38px 29px;
+    box-sizing: border-box;
+}
+
+.examples__main-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin: 0;
+}
+
+.examples__sub-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #C4C4C4;
+    margin: 0;
+}
