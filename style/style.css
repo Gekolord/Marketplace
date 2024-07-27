@@ -11,7 +11,8 @@ body {
     background-color: #FFFFFF;
     box-shadow: 0px 10px 20px 0px #0000001A;
     overflow: auto;
-
+    flex: 0 0 auto;
+    height: 479px;
 }
 
 .categories:first-child {
@@ -37,7 +38,6 @@ body {
     font-weight: 400;
     line-height: 19px;
     text-align: left;
-    
     text-decoration: none;
 }
 
@@ -52,8 +52,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 33px;
-    
-    
+    flex: 0 0 auto;
 }
 
 .welcome-cards > div {
@@ -148,3 +147,14 @@ body {
     bottom: 29px;
 
 }
+
+.welcome-cards__card3 {
+    background: #F21F5B;
+}
+
+.wrapper-for-positioning {
+    display: flex;
+    gap: 23px;
+    margin: 90px;
+}
+
