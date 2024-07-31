@@ -249,6 +249,9 @@ body > * {
     width: 1320px;
     height: 479px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .showcase-clock__category-button_focused {
@@ -258,6 +261,72 @@ body > * {
     background: #1946BAD9;
     border: none;
     color: #FFFFFF;
-
-
 }
+
+.showcase-block__item {
+    width: 158px;
+    height: 255.92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.showcase-block__items {
+    flex: 0;
+    height: 255.92px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.showcase-block__item-square {
+    width: 138px;
+    height: 107px;
+    background-color: #1946BAD9;
+}
+
+.showcase-block__items-header {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #222222;
+    margin: 5px 0px;
+}
+
+.showcase-block__items-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #C4C4C4;
+    
+}
+
+.showcase-block__items-button {
+    width: 116px;
+    height: 25.92px;
+    border: none;
+    border-radius: 1.3px;
+    font-size: 9.07px;
+    font-weight: 400;
+    line-height: 9.07px;
+    text-align: center;
+    background-color: #1946BAD9;
+    color: white;
+    cursor: pointer;
+}
+
+.showcase-block__items-image {
+    position: absolute;
+    top: -45px;
+}
+
+.mechanics {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 190px;
+}
+
