@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/table-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <form action="" role="search" id="form">
+            <input type="text" id="query" name="q"
+                placeholder="Поиск по сайту"
+                aria-label="Search through site content">
+            <div class="header__buttons">
+                <button class="header__buttons-cancel-button">
+                    <img src="images/Cancel_button.svg" alt="">
+                </button>
+                <button class="header__buttons-search-button">
+                    <img src="images/Magnifying_glass.svg" alt="">
+                </button>
+            </div>
+        </form>
+
+        <select name="languages" id="lang" class="header__language-selection">
+            <option value="RU">RU</option>
+            <option value="ENG">ENG</option>
+            <option value="ESP">ESP</option>
+            <option value="中国人">中国人</option>
+        </select>
+        <button class="header__login-button">Войти</button>
+    </header>
 </body>
 </html>

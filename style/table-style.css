@@ -1,0 +1,85 @@
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    background-color: #EAEFFC;
+    margin: 0;
+}
+
+.header {
+    padding: 34px 90px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    gap: 34px;
+}
+
+form {
+    width: 829px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#query {
+    all: unset;
+    margin-left: 29px ;
+    flex: 1;
+}
+
+#query::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: #B9B8B8;
+}
+
+.header__buttons > *{
+    all: unset;
+    cursor: pointer;
+    height: 100%;
+    padding: 0px 17px;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__buttons-cancel-button {
+    border-right: 1px solid #CCCCCC;
+    
+}
+
+select {
+    all: unset;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #222222;
+    background-image: url("/images/DropDown_arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
+}
+
+.header__login-button {
+    width: 105px;
+    height: 40px;
+    border-radius: 2px;
+    color: #1946BAD9;
+    background: none;
+    border: 1px solid #1946BAD9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    cursor: pointer;
+}
